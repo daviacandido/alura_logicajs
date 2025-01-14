@@ -15,8 +15,9 @@ function adicionar() {
 }
 
 function reiniciar() {
-  lista.textContent = "";
   amigos = [];
+  document.getElementById("lista-amigos").innerHTML = "";
+  document.getElementById("lista-sorteio").innerHTML = "";
 }
 
 function embaralha(lista) {
